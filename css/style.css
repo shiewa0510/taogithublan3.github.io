@@ -1,0 +1,215 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	background: #24252A;
+}
+li, a, button{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+#header{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.logo{
+	cursor: pointer;
+	width: 100px;
+}
+.logo:hover {
+	transition: 0.2s;
+	width: 105px;
+}
+.navbar{
+	list-style: none;
+}
+.navbar>li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.navbar>li>a{
+	color: whitesmoke;
+}
+.navbar>li>a:hover {
+	color: orange;
+	transition: 0.8s;
+}
+.active, .btn:hover {
+ 	background-color: none;
+	text-decoration: underline;
+ 	text-decoration-style: wavy;
+	text-decoration-color: orange;
+	transition: 0.1s;
+}
+button{
+	padding: 9px 25px;
+	background-color: black;
+	border: none;
+	border-radius: 20px;
+	transition: 0.3s;
+	
+}
+button:hover {
+	background-color: orange;
+}
+#banner{
+	width: 100%;
+	height: 850px;
+	background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	
+}
+#banner>h1{
+	color: white;
+	background: none;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-shadow: 4px 4px 5px rgba(0,0,0,0.46);
+}
+#banner>p{
+	color:white;
+	background: none;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	width: 570px;
+	margin: 0 auto;
+	transition: 0.3s;
+}
+#banner>p:hover {
+	color:darkblue;
+	background: none;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	width: 570px;
+	margin: 0 auto;
+	transition: 0.5s;
+}
+.pic1{
+	background: none;
+	display: block;
+	margin: 0 auto;
+	width: 933px;
+}
+#content-wrapper{
+	background-color: white;
+	width: 100%;
+	height: 800px;
+	float: left;
+}
+.body-bar{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+.body-bar>h1{
+	background: none;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 10px;
+	margin-left: 150px;
+	float: left;
+}
+.body-bar>img{
+	background: none;
+	float: right;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 80px;
+}
+#text-cover{
+	width: 500px;
+	height: 500px;
+	background: white;
+	float: left;
+	margin-left: 150px;
+}
+#text-cover>h1{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 30px;
+	color: black;
+	background: none;
+	float: left;
+}
+#text-cover>p{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 25px;
+	color: black;
+	background: none;
+	float: left;
+	margin-top: 50px;
+}
+#text-pic{
+	background: none;
+}
+#text-pic>img{
+	background: none;
+	float: right;
+	margin-right: 300px;
+}
+.body-bar2{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+.body-bar2>h1{
+	background: none;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 30px;
+	color: black;
+	margin-top: 45px;
+	margin-left: 150px;
+	float: left;
+}
+.body-bar2>img{
+	background: none;
+	float: right;
+	height: 40px;
+	margin-top: 50px;
+	margin-right: 150px;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	float: left;
+}
+#footer>p{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 150px;
+	margin-top: 50px;
+	font-size: 15px;
+	background: none;
+	float: left;
+}
+.fb{
+	background: none;
+}
+.fb a p{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 150px;
+	margin-top: 50px;
+	font-size: 15px;
+	background: none;
+	float: right;
+}
+.fb a p:hover{
+	color: darkblue;
+	transition: 0.5s;
+}
